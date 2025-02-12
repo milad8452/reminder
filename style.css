@@ -1,0 +1,41 @@
+/* style.css */
+body {
+    font-family: Tahoma, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    direction: rtl;
+}
+
+.container {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
