@@ -1,0 +1,27 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>یادآور مرور دروس</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+</head>
+<body>
+    <div class="container">
+        <h1>📚 یادآور مرور دروس</h1>
+        
+        <form id="reminderForm">
+            <input type="text" id="subject" placeholder="نام درس" required>
+            <input type="datetime-local" id="reminderTime" required>
+            <button type="submit">ثبت یادآوری</button>
+        </form>
+
+        <div id="remindersList">
+            <h2>یادآوریهای ثبت شده:</h2>
+            <ul id="reminders"></ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
